@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  background-image: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  justify-content: space-between;
+  background-color: rgb(233, 229, 229);
+  margin-bottom: 2%;
+}
+
+.navbarText {
+  display: flex;
+  font-family: 'Lobster', cursive;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar .navbarText .linkTitle h1 {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.logOut{
+  display: flex;
+  gap: 25px;
+}
+
+.navbar .logOut .link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: auto;
+}
+
+.navbar .logOut .link:hover{
+  border-bottom: none;
+}
+
+.items {
+  margin-bottom: 2%;
+}
+
+.buttonAdd {
+  margin-bottom: 2%;
+}
+
+.addAirsoftItem, .editAirsoftItem {
+  height: 100vh;
+}
+
+.addAirsoftItem .avatar, .editAirsoftItem .avatar {
+  margin: auto;
+  margin-top: 1%;
+}
+
+.addAirsoftItem form, .editAirsoftItem form {
+  width: 50%;
+  margin: auto;
+}
+
+.addAirsoftItem form .label, .editAirsoftItem form .label {
+  text-align: left;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+.addAirsoftItem form label, .editAirsoftItem form label {
+  line-height: 30px;
+}
+
+.addAirsoftItem form .radio, .editAirsoftItem form .radio {
+  font-size: 17px;
+}
+
+.addAirsoftItem form .submit, .editAirsoftItem form .submit {
+  margin-bottom: 4%; 
+}
